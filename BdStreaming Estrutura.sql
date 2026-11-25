@@ -77,3 +77,4 @@ CREATE TABLE FilmeRoteirista(
 -- =================================================
 -- TABELAS RELACIONADAS AO STREAMING E ASSINATES
 -- =================================================
+-- teste
