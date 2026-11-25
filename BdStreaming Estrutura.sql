@@ -15,7 +15,7 @@ CREATE TABLE Ator(
 	IdAtor INT AUTO_INCREMENT,
     Nome VARCHAR(150) NOT NULL,
     DataNascimento DATE,
-    Foto LONGBLOB,
+    -- Foto LONGBLOB,
     CONSTRAINT PK_Ator PRIMARY KEY(IdAtor)
 );
 
@@ -23,7 +23,7 @@ CREATE TABLE Diretor(
 	IdDiretor INT AUTO_INCREMENT,
     Nome VARCHAR(150) NOT NULL,
     DataNascimento DATE,
-    Foto LONGBLOB,
+    -- Foto LONGBLOB,
     CONSTRAINT PK_Diretor PRIMARY KEY(IdDiretor)
 );
 
@@ -31,7 +31,7 @@ CREATE TABLE Roteirista(
 	IdRoteirista INT AUTO_INCREMENT,
     Nome VARCHAR(150) NOT NULL,
     DataNascimento DATE,
-    Foto LONGBLOB,
+    -- Foto LONGBLOB,
     CONSTRAINT PK_Roteirista PRIMARY KEY(IdRoteirista)
 );
 
@@ -48,7 +48,7 @@ CREATE TABLE Filme(
     DataLancamento DATE NOT NULL,
     Investimento DECIMAL CHECK(Investimento > 0.00),
     Duracao TIME NOT NULL,
-    Poster LONGBLOB NOT NULL,
+    -- Poster LONGBLOB NOT NULL,
     IdGeneroFilme INT,
     IdDiretor INT,
     IdProdutora INT,
